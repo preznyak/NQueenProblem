@@ -8,15 +8,6 @@
     <artifactId>NQueenProblem</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/net.sf.jbddi/jbddi-core -->
-        <dependency>
-            <groupId>net.sf.jbddi</groupId>
-            <artifactId>jbddi-core</artifactId>
-            <version>1.0.1</version>
-        </dependency>
-
-    </dependencies>
     <build>
         <plugins>
             <plugin>
