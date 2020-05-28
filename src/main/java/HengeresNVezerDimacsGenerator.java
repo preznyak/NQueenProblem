@@ -191,7 +191,7 @@ public class HengeresNVezerDimacsGenerator {
     }
 
     public static void main(String[] args){
-        int N = 3;
+        int N = 5;
         int Q = 2;
         HengeresNVezerDimacsGenerator generator = new HengeresNVezerDimacsGenerator(N, Q);
         System.out.println("c roller n queen problem");
@@ -200,5 +200,6 @@ public class HengeresNVezerDimacsGenerator {
         generator.printColAndRowRules();
         generator.printDiagRules();
 //        generator.printBoard();
+        System.out.println(16 / 3);
     }
 }
